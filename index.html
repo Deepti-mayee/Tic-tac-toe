@@ -7,11 +7,15 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-     <main>
+    <div class="msg-container hide">
+        <p id="msg">Winner</p>
+        <button id="new-btn">NEW GAME</button>
+    </div>
+    <main>
         <h1>Tic Tac Toe</h1>
         <div class="container">
             <div class="game">
-                <button class="box">X</button>
+                <button class="box"></button>
                 <button class="box"></button>
                 <button class="box"></button>
                 <button class="box"></button>
@@ -23,7 +27,7 @@
             </div>
         </div>
         <button id="reset">RESET GAME</button>
-     </main>
-     <script src="script.js"></script>
+    </main>
+    <script src="script.js"></script>
 </body>
 </html>
